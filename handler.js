@@ -1513,7 +1513,7 @@ restrict: lenguajeGB['smsRestrict'](),
 }[type]
 //if (msg) return m.reply(msg)
 let tg = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '𝙏𝙊𝙏𝙊𝙍𝙊 𝘽𝙊𝙏' + gt + ' 𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿', '𝙏𝙃𝘼𝙇𝙄𝘼'].getRandom(), thumbnail: gataImg, sourceUrl: accountsgb }}}}, tg)
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, 'LOS TAZOS DORADOS BOT' + gt + ' 𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿', 'LEON'].getRandom(), thumbnail: gataImg, sourceUrl: accountsgb }}}}, tg)
 if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 
