@@ -1,7 +1,7 @@
 {
-"name": "MonoSexo",
+"name": "Los-Tazos-Dorados-Bot",
 "version": "1.7.0", 
-"description": "Mono Bot WhatsApp",
+"description": "Los-Tazos-Dorados-Bot WhatsApp",
 "main": "index.js",
 "type": "module",
     
@@ -19,7 +19,7 @@
     
 "homepage": "https://github.com/GataNina-Li/GataBot-MD",
 "author": {
-"name": "Mono" },
+"name": "Los-Tazos-Dorados-Bot" },
     
 "repository": {
 "type": "git",
